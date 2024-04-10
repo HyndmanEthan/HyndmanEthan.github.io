@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  body{
+  background-color: #ccc;
+
+}
+
+
+.row{
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+
+  /* 
+NAVIGATION BAR
+*/
+nav {
+    /* If you change the height change the about me section */
+    height: 100px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f;
+  }
+  .nav-logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 16px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+  }
+.about-me-image-wrapper{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+  .about-me-image{
+    height: 100%;
+    
+  }
+  
+  .nav-logo-name{
+    padding: 0 16px;
+  }
+
+  .nav-link-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 16px;
+    list-style: none;
+  }
+  
+  .nav-link-anchor {
+    margin: 0 12px;
+    font-size: 16;
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+/* 
+  about me
+*/
+#about-me{
+  /* View port minus the header height */
+  min-height: calc(100vh - 100px); 
+  display: flex;
+  flex-direction: column;
+}
+
+.about-me-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+/* 
+  skills
+*/
+
+
+/* 
+  projects
+*/
+
+
+
+
+  footer{
+    height: 60px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f;
+
+  }
+
+  .copyright{
+    padding: 0 16px;
+  }
+
